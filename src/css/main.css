@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body  {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.q-header {
+    @apply font-bold flex flex-row justify-between text-gray-700 bg-gray-100 px-3 py-4 cursor-pointer ;
+  }
+  .q-content {
+    @apply   transition-all duration-500 overflow-hidden text-gray-700 text-xl;
+  }
+  .q-content a{
+    @apply text-yellow-300 
+  }
+  .experience {
+    background-image: url('../img/bg-1.jpg');
+    background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+
