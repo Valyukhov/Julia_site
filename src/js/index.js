@@ -1,2 +1,5 @@
 import "../css/main.css";
-import "./whyme.js"
+import "../css/itc-slider.css";
+import "./whyme.js";
+import "./itc-slider.js";
+import "./modal.js";

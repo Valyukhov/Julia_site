@@ -7,6 +7,11 @@
 html {
     scroll-behavior: smooth;
   }
+  /* *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    } */
 
 body  {
     margin: 0; 
@@ -20,14 +25,31 @@ body  {
   .q-content {
     @apply   transition-all duration-500 overflow-hidden text-gray-700 text-xl;
   }
-  .q-content a{
-    @apply text-yellow-300 
-  }
+ 
   .experience {
     background-image: url('../img/bg-1.jpg');
     background-size: 500px;
   background-repeat: no-repeat;
   background-position: center;
   }
+
+.modal {
+  background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+
+  .itc-slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    /* height: 250px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 7rem;
+  }
+
+  
 
 
